@@ -1,0 +1,65 @@
+    1  cd DAC0921/Java/Web/JSTLTest/
+    2  vi src/CustomerBean.java 
+    3  rm -r ClassicWebApp/WEB-INF/classes/shopping/
+    4  . /opt/glassfish5/setenv.sh 
+    5  javac -d ClassicWebApp/WEB-INF/classes/ src/CustomerBean.java 
+    6  touch ClassicWebApp/.reload
+    7  vi ClassicWebApp/customer.jsp
+    8  cp ClassicWebApp/customer.jsp ClassicWebApp/invoice.jsp
+    9  vi ClassicWebApp/invoice.jsp 
+   10  vi src/CustomerBean.java 
+   11  vi ClassicWebApp/invoice.jsp 
+   12  vi ClassicWebApp/customer.jsp 
+   13  vi ClassicWebApp/invoice.jsp 
+   14  history >> ../../cmd2312.txt
+    1  cd DAC0921/Java/
+    2  cd Database/JPAXmlMappingTest/
+    3  ls
+    4  vi jndi.properties 
+    5  rmiregistry 6000 &
+    6  java -cp .:/opt/jars/* Program &
+    7  java -cp .:/opt/jars/* Server &
+    8  java Program CU103
+    9  java Program CU101
+   10  cd ../..
+   11  cd Web/
+   12  ls
+   13  mkdir JAXRSTest
+   14  cd JAXRSTest/
+   15  mkdir -p ModernWebApp/WEB-INF/classes
+   16  cp /samples/Support/WEB-INF/web.xml ModernWebApp/WEB-INF/
+   17  mkdir src
+   18  cp ../../Database/JPAXmlMappingTest/src/OrderManager.java src/
+   19  cp ../../Database/JPAXmlMappingTest/src/OrderEntity.java src/
+   20  . /opt/glassfish5/setenv.sh 
+   21  javac -d ModernWebApp/WEB-INF/classes src/*.java
+   22  vi src/RestAppConfig.java
+   23  javac -d ModernWebApp/WEB-INF/classes/ src/RestAppConfig.java 
+   24  vi src/RestAppConfig.java
+   25  vi src/OrderManagerAPI.java
+   26  javac -d ModernWebApp/WEB-INF/classes/ src/OrderManagerAPI.java 
+   27  vi src/OrderManager.java 
+   28  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+   29  /opt/glassfish5/bin/asadmin deploy ModernWebApp
+   30  curl localhost:8001/ModernWebApp/api/orders/CU102
+   31  vi src/OrderManagerAPI.java
+   32  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+   33  vi src/OrderManagerAPI.java
+   34  javac -d ModernWebApp/WEB-INF/classes/ src/*.java
+   35  touch ModernWebApp/.reload
+   36  curl -X POST -H 'Content-type: application/json' --data '{"customerId":"CU101", "productNo":102, "quantity":3}' localhost:8001/ModernWebApp/api/orders
+   37  curl localhost:8001/ModernWebApp/api/orders/CU101
+   38  vi src/RestAppConfig.java 
+   39  vi src/OrderManagerAPI.java 
+   40  curl localhost:8001/ModernWebApp/api/orders/CU108
+   41  vi src/OrderManagerAPI.java 
+   42  curl localhost:8001/ModernWebApp/api/orders/CU101
+   43  cp /samples/Support/html/salesui.* ModernWebApp/
+   44  vi ModernWebApp/salesui.js 
+   45  vi ModernWebApp/salesui.html 
+   46  vi src/OrderManagerAPI.java 
+   47  ps
+   48  kill 18533
+   49  kill 18423
+   50  /opt/glassfish5/bin/asadmin undeploy ModernWebApp
+   51  history >> ../../cmd2312.txt 

@@ -1,0 +1,58 @@
+    1  vi Program.java 
+    2  java Program ssd 5
+    3  sudo last
+    4  netstat -pnlt
+    5  sudo netstat -pnlt
+    6  java Program ssd 5
+    7  java Program ssd 5 home.hussain.in
+    8  cd ..
+    9  mkdir DatagramSocketTest
+   10  cd DatagramSocketTest/
+   11  vi Program.java
+   12  javac Program.java 
+   13  java Program &
+   14  cd ..
+   15  mkdir MulticastSocketTest
+   16  cd MulticastSocketTest/
+   17  vi Program.java
+   18  javap java.net.InetSocketAddress
+   19  vi Program.java
+   20  javac Program.java 
+   21  java Program
+   22  vi Program.java
+   23  vi ../DatagramSocketTest/Program.java 
+   24  vi Program.java
+   25  ps
+   26  kill 24131
+   27  java Program
+   28  history >> ../../cmd1612.txt
+    1  mkdir HttpClientTest
+    2  cd HttpClientTest/
+    3  cp ../ServerSocketTest/Shop.java .
+    4  cp ../ServerSocketTest/store.xml .
+    5  javac Shop.java 
+    6  vi Server.java
+    7  javac Server.java 
+    8  vi Server.java
+    9  javac Server.java 
+   10  java Server &
+   11  sudo netstat -pnlt
+   12  kill 21253
+   13  sudo kill 21253
+   14  sudo netstat -pnlt
+   15  java Server &
+   16  curl http://localhost:4000/shop/cpu
+   17  curl http://localhost:4000/shop/cabbage
+   18  vi Server.java
+   19  curl http://localhost:4000/shop/ssd
+   20  vi Program.java
+   21  javap java.net.http.HttpResponse
+   22  vi Program.java
+   23  curl http://localhost:4000/shop/cpu
+   24  vi Program.java
+   25  javac Program.java 
+   26  java Program ddr 5
+   27  java Program hdd 3
+   28  java Program monitor 100
+   29  vi Program.java
+   30  history >> ../../cmd1612.txt 

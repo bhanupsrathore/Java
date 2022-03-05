@@ -1,0 +1,66 @@
+    1  ls
+    2  sqlplus
+    3  ls
+    4  clear
+    5  ls
+    6  cd Nilesh/
+    7  ls
+    8  cd Java/
+    9  ls
+   10  mkdir Web
+   11  cd Web
+   12  mkdir ServletTest
+   13  cd ServletTest
+   14  pwd
+   15  mkdir BasicWebApp_121
+   16  mkdir BasicWebApp_121/WEB-INF
+   17  mkdir BasicWebApp_121/WEB-INF/classes
+   18  mkdir src
+   19  ll BasicWebApp_121/
+   20  ls
+   21  ll BasicWebApp_121/
+   22  ll BasicWebApp_121/WEB-INF/
+   23  clear
+   24  ll
+   25  ll /samples/Java/Web/ServletTest/
+   26* 
+   27* 
+   28  ll /samples/Java/Web/ServletTest/
+   29  ll /samples/Java/Web/ServletTest/BasicWebApp/
+   30  cp /samples/Java/Web/ServletTest/BasicWebApp/welcome.html  BasicWebApp_121/
+   31  cp /samples/Java/Web/ServletTest/BasicWebApp/WEB-INF/web.xml  BasicWebApp_121/WEB-INF/
+   32  ll BasicWebApp_121/
+   33  ll BasicWebApp_121/WEB-INF/
+   34  cl scr
+   35  clear
+   36  ll
+   37  vi BasicWebApp_121/WEB-INF/web.xml 
+   38  /opt/glassfish5/bin/asadmin deploy BasicWebApp_121/
+   39  cp /samples/Java/Web/ServletTest/src/GreetingServlet.java  src
+   40  ll src
+   41  vi src/GreetingServlet.java 
+   42  vi /opt/glassfish5/setenv.sh 
+   43  . /opt/glassfish5/setenv.sh 
+   44  ll
+   45  javac -d  BasicWebApp_121/WEB-INF/classes/ src/GreetingServlet.java 
+   46  vi BasicWebApp_121/WEB-INF/web.xml 
+   47  /opt/glassfish5/bin/asadmin undeploy BasicWebApp_121/
+   48  /opt/glassfish5/bin/asadmin deploy BasicWebApp_121/
+   49  vi BasicWebApp_121/WEB-INF/web.xml 
+   50  /opt/glassfish5/bin/asadmin undeploy BasicWebApp_121/
+   51  ls
+   52  pwd
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd DAC0921/
+   57  cd Java/
+   58  ls
+   59  cd Web/
+   60  ls
+   61  cd JSTLTest/
+   62  ls
+   63  cd ..
+   64  ls
+   65  history cmd_test.txt
+   66  history> cmd_test.txt

@@ -1,0 +1,102 @@
+    1  cd DAC0921/Java/Generics/
+    2  mkdir ListTest
+    3  cd ListTest/
+    4  cp ../GenMethodTest/Interval.java .
+    5  javac Interval.java 
+    6  vi Program.java
+    7  javac Program.java 
+    8  java Program
+    9  vi Program.java
+   10  javac Program.java 
+   11  java Program
+   12  vi Program.java
+   13  cd ..
+   14* 
+   15  cd SetTest/
+   16  vi Program.java 
+   17  javac Program.java 
+   18  vi Program.java 
+   19  javac Program.java 
+   20  java Program
+   21  vi Program.java 
+   22  javac Program.java 
+   23  java Program
+   24  cd ..
+   25  cp -r SetTest/ MapTest
+   26  cd MapTest/
+   27  vi Program.java 
+   28  history >> ../../cmd0921.txt
+    1  cd DAC0921/Java/Generics/MapTest/
+    2  vi Program.java 
+    3  javac Program.java 
+    4  java Program
+    5  vi Program.java 
+    6  java Program wednesday
+    7  java Program friday
+    8  java Program sunday
+    9  vi Program.java 
+   10  javap java.util.Map\$Entry
+   11  vi Program.java 
+   12  javac Program.java 
+   13* 
+   14  history >> ../../cmd0921.txt 
+    1  cd DAC0921/Java/
+    2  mkdir Runtime
+    3  cd Runtime/
+    4  mkdir ReflectionTest
+    5  cd ReflectionTest/
+    6  vi Program.java
+    7  javac Program.java 
+    8  ls
+    9  javap -p Item
+   10  vi Program.java
+   11  javac Program.java 
+   12  java Program
+   13  vi Program.java
+   14  mv Program.java Program1.java
+   15  vi Program1.java 
+   16  javac Program1.java 
+   17  java Program
+   18  vi Program1.java 
+   19  javac Program1.java 
+   20  vi Program1.java 
+   21  javac Program1.java 
+   22  java Program
+   23  vi Program1.java 
+   24  javap java.lang.Object
+   25  cp Program1.java Program2.java
+   26  vi Program2.java 
+   27  javac Program2.java 
+   28  java Program2
+   29  java Program
+   30  vi Program2.java 
+   31  javac Program2.java 
+   32  java Program
+   33  vi Program2.java 
+   34  javac Program2.java 
+   35  java Program
+   36  vi Program2.java 
+   37  javac Program2.java 
+   38  java Program
+   39  vi Program2.java 
+   40  javac Program2.java 
+   41  java Program
+   42  vi Program2.java 
+   43  javac Program2.java 
+   44  java Program
+   45  vi Program2.java 
+   46  cd ..
+   47  mkdir AnnotationTest
+   48  cd AnnotationTest/
+   49  mkdir src
+   50  mkdir src/EducationLoan.java
+   51  rmdir src/EducationLoan.java
+   52  vi src/EducationLoan.java
+   53  vi src/PersonalLoan.java
+   54  vi src/EducationLoan.java
+   55  vi src/PersonalLoan.java
+   56  vi src/HomeLoan.java
+   57  vi src/PersonalLoan.java
+   58  javac -d . src/*.java
+   59  ls
+   60  history >> ../../cmd0921.txt 

@@ -1,0 +1,98 @@
+    1  cd DAC0921/Java/Inheritance/
+    2  cd AbstractClassTest/
+    3  vi src/Account.java 
+    4  vi src/CurrentAccount.java
+    5  javac -d . src/CurrentAccount.java 
+    6  javac -d . src/SavingsAccount.java 
+    7  vi src/SavingsAccount.java 
+    8  javac -d . src/SavingsAccount.java 
+    9  vi src/SavingsAccount.java 
+   10  javac -d . src/SavingsAccount.java 
+   11  javap banking/SavingsAccount.class 
+   12  vi src/Account.java 
+   13  javac -d . src/Account.java 
+   14  vi src/Banker.java
+   15  javac -d . src/Banker.java
+   16  vi Program.java
+   17  javac Program.java
+   18  vi Program.java
+   19  javac Program.java
+   20  vi Program.java
+   21  javac Program.java
+   22  vi Program.java
+   23  javac Program.java 
+   24  java Program
+   25  vi Program.java
+   26  javac Program.java 
+   27  javap banking.Account
+   28  vi Program.java
+   29  javac Program.java 
+   30  java Program 12000
+   31  java Program 17000
+   32  java Program 4OOO
+   33  java Program
+   34  vi Program.java
+   35  history > ../../cmd0712.txt
+    1  cd DAC0921/Java/Inheritance/
+    2  cp -r AbstractClassTest/ InterfaceTest1
+    3  cd InterfaceTest1/
+    4  vi src/Profitable.java
+    5  javac -d . src/Profitable.java 
+    6  javap banking/Profitable.class 
+    7  vi src/Profitable.java
+    8  vi src/SavingsAccount.java 
+    9  javac -d . src/SavingsAccount.java 
+   10  vi src/SavingsAccount.java 
+   11  javac -d . src/SavingsAccount.java 
+   12  vi Program.java 
+   13  javac Program.java 
+   14  java Program
+   15  vi Program.java 
+   16  javac Program.java 
+   17  java Program
+   18  vi Program.java 
+   19  cd ..
+   20  mkdir InterfaceTest2
+   21  cd InterfaceTest2
+   22  mkdir src
+   23  vi src/TaxPayer.java
+   24  javac -d . src/TaxPayer.java 
+   25  vi src/Worker.java
+   26  javac -d . src/Worker.java
+   27  vi src/Dealer.java
+   28  javac -d . src/Dealer.java
+   29  vi Program1.java
+   30  javac Program1.java 
+   31  vi Program1.java
+   32  javac Program1.java 
+   33  java Program 4200000
+   34  vi Program1.java
+   35  javac Program1.java 
+   36  java Program 4200000
+   37  java Program 32000 Jill
+   38  java Program 25000 Jim
+   39  javac Program1.java 
+   40  vi Program1.java
+   41  javac Program1.java 
+   42  java Program 4200000
+   43  java Program 32000 Jill
+   44  java Program 25000 Jim
+   45  vi Program1.java
+   46  javac Program1.java 
+   47  java Program 4200000
+   48  java Program 32000 Jill
+   49  java Program 25000 Jim
+   50  vi Program1.java
+   51  vi src/TaxPayer.java 
+   52  cp Program1.java Program2.java
+   53  vi Program2.java 
+   54  javac Program2.java 
+   55  java Program 4200000
+   56  java Program 32000 Jill
+   57  java Program 25000 Jim
+   58  vi Program2.java 
+   59  javap java.lang.AutoCloseable
+   60  vi Program2.java 
+   61  javac Program2.java 
+   62  vi Program2.java 
+   63  history >> ../../cmd0712.txt 

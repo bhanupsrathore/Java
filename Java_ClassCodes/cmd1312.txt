@@ -1,0 +1,137 @@
+    1  cd DAC0921/Java/Runtime/
+    2  export CPATH=/opt/jdk-16.0.1/include/:/opt/jdk-16.0.1/include/linux/
+    3  export LD_LIBRARY_PATH=.
+    4  cd NativeMethodTest1/
+    5  vi Program.java 
+    6  javac -h . Program.java 
+    7  vi Program.java 
+    8  javac -h . Program.java 
+    9  vi Program.h
+   10  vi natsup.cpp 
+   11  c++ -shared -fPIC -o libnatsup.so natsup.cpp 
+   12  java Program square 1.1 1.2 1.3 1.4
+   13  java Program square 1.0 1.5 2.0 2.5
+   14  vi Program.java 
+   15  vi natsup.cpp 
+   16  cd ..
+   17  mkdir NativeMethodTest2/
+   18  cd NativeMethodTest2
+   19  cp /samples/Foundations/Polymorphism/series.h .
+   20  cp /samples/Foundations/Polymorphism/series.cpp .
+   21  ls
+   22  vi series.h
+   23  c++ -c -fPIC series.cpp 
+   24  ls
+   25  vi LegacySequence.java
+   26  javac -h . LegacySequence.java 
+   27  ls
+   28  vi LegacySequence.h
+   29  javap -p -s LegacySequence
+   30  vi bridge.cpp
+   31  vi LegacySequence.java
+   32  c++ -shared -fPIC -o libbridge.so bridge.cpp series.o
+   33  ls
+   34  vi Program.java
+   35  javac Program.java 
+   36  java Program 1 3 5
+   37  vi bridge.cpp
+   38  vi series.h
+   39  cd ../..
+   40  mkdir Platform
+   41  cd Platform/
+   42  javap java.lang.Runnable
+   43  mkdir ThreadTest
+   44  cd ThreadTest/
+   45  vi Worker.java
+   46  vi Program.java
+   47  javac Program.java 
+   48  vi Program.java
+   49  javac Program.java 
+   50  java Program
+   51  history >> ../../cmd1312.txt
+    1  cd DAC0921/Java/Platform/
+    2  cd ThreadTest/
+    3  vi Program.java 
+    4  javac Program.java 
+    5  java Program
+    6  vi Program.java 
+    7  javac Program.java 
+    8  java Program
+    9  vi Program.java 
+   10  java Program 9
+   11  java Program 15
+   12  java Program 20
+   13  java Program 90
+   14  vi Program.java 
+   15  javac Program.java 
+   16  java Program 15
+   17  java Program 25
+   18  vi Program.java 
+   19  cd ..
+   20  mkdir MonitorTest
+   21  cd MonitorTest/
+   22  vi JointAccount.java
+   23  vi Program1.java
+   24  cp ../ThreadTest/Worker.java .
+   25  vi JointAccount.java
+   26  vi Program1.java
+   27  javac Program1.java 
+   28  java Program
+   29  cp Program1.java Program2.java
+   30  vi Program2.java 
+   31  javac Program2.java 
+   32  java Program
+   33  vi JointAccount.java 
+   34  cp JointAccount.java JavaAccount1.java
+   35  vi JointAccount.java 
+   36  javac JointAccount.java 
+   37  javac Program2.java 
+   38  java Program
+   39  mv JointAccount.java JointAccount2.java
+   40  vi JointAccount2.java 
+   41  javac JointAccount2.java 
+   42  java Program
+   43  vi JointAccount2.java 
+   44  vi Program.j
+   45  vi Program2.java 
+   46  vi JointAccount2.java 
+   47  javac JointAccount2.java 
+   48  javap java.lang.Object
+   49  vi JointAccount2.java 
+   50  cd ..
+   51  mkdir ThreadPoolTest
+   52  cd ThreadPoolTest/
+   53  cp ../ThreadTest/Worker.java .
+   54  vi Computation.java
+   55  javac Computation.java 
+   56  vi Program1.java
+   57  javac Program1.java 
+   58  java Program
+   59  vi Computation.java 
+   60  cp Program1.java Program2.java 
+   61  vi Program2.java 
+   62  javac Program2.java 
+   63  java Program
+   64  vi Program2.java 
+   65  javac Program2.java 
+   66  java Program
+   67  vi Program2.java 
+   68  javac Program2.java 
+   69  java Program
+   70  vi Program2.java 
+   71  javac Program2.java 
+   72  java Program
+   73  vi Program2.java 
+   74  javac Program2.java 
+   75  java Program
+   76  vi Program2.java 
+   77  javac Program2.java 
+   78  java Program
+   79  vi Program2.java 
+   80  javac Program2.java 
+   81  java Program
+   82  vi Program2.java 
+   83  javap java.util.concurrent.ExecutorService
+   84  javap java.util.concurrent.Callable
+   85  vi Program2.java 
+   86  history >> ../../cmd1312.txt 

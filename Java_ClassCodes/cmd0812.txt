@@ -1,0 +1,137 @@
+    1  cd DAC0921/Java/
+    2  mkdir Generics
+    3  cd Generics/
+    4  mkdir GenMethodTest
+    5  cd GenMethodTest/
+    6  vi Program1.java
+    7  javac Program1.java 
+    8  java Program 23
+    9  java Program 32
+   10  vi Program1.java
+   11  javac Program1.java 
+   12  vi Program1.java
+   13  javac Program1.java 
+   14  java Program 23
+   15  java Program 32
+   16  vi Program1.java
+   17  cp Program1.java Program2.java
+   18  vi Program2.java 
+   19  javac Program2.java 
+   20  java Program 23
+   21  java Program 32
+   22  vi Program2.java 
+   23  javap java.lang.Double
+   24  vi Program2.java 
+   25  cp ../../Inheritance/ObjectClassTest/Interval.java .
+   26  vi Interval.java 
+   27  javac Interval.java 
+   28  vi Program2.java 
+   29  javac Program2.java 
+   30  java Program 23
+   31  java Program 32
+   32  vi Program2.java 
+   33  cp Program2.java Program3.java
+   34  vi Program3.java 
+   35  javac Program3.java 
+   36  vi Program3.java 
+   37  javac Program3.java 
+   38  java Program 23
+   39  java Program 32
+   40  vi Program3.java 
+   41  vi Program2.java 
+   42  vi Program3.java 
+   43  vi Program2.java 
+   44  vi Program1.java 
+   45  vi Program2.java 
+   46  vi Program3.java 
+   47  javac Program3.java 
+   48  vi Program3.java 
+   49  javap java.lang.Object
+   50  vi Program3.java 
+   51  javap java.lang.Comparable
+   52  javap java.lang.String
+   53  javap java.lang.Double
+   54  vi Program3.java 
+   55  javac Program3.java 
+   56  java Program
+   57  vi Program3.java 
+   58  javap Interval
+   59  javac Program3.java 
+   60  vi Program3.java 
+   61  javac Program3.java 
+   62  vi Program3.java 
+   63  vi Interval.java 
+   64* 
+   65  javac Program3.java 
+   66  java Program
+   67  vi Program3.java 
+   68  vi Program1.java 
+   69  vi Program2.java 
+   70  vi Program3.java 
+   71  javap java.lang.Comparable
+   72  javap java.lang.Iterable
+   73  history > ../../cmd0812.txt
+    1  cd DAC0921/Java/Generics/
+    2  mkdir GenClassTest
+    3  cd GenClassTest/
+    4  vi SimpleStack.java
+    5  javac SimpleStack.java 
+    6  vi Program1.java
+    7  vi SimpleStack.java
+    8  vi Program1.java
+    9  javac Program1.java
+   10  vi Program1.java
+   11  javac Program1.java
+   12  java Program
+   13  vi Program1.java
+   14  javac Program1.java
+   15  java Program
+   16  vi Program1.java
+   17  cp Program1.java Program2.java
+   18  vi Program2.java 
+   19  javac Program2.java 
+   20  java Program
+   21  vi Program2.java 
+   22  javac Program2.java 
+   23  vi Program2.java 
+   24  javac Program2.java 
+   25  vi Program2.java 
+   26  javac Program2.java 
+   27  java Program
+   28  vi Program2.java 
+   29  javac Program2.java 
+   30  vi Program2.java 
+   31  cd ..
+   32  mkdir IterationTest
+   33  cd IterationTest/
+   35  javap java.lang.Iterable
+   36  javap java.util.Iterator
+   37  cp ../GenClassTest/SimpleStack.java SmartStack.java
+   40  vi SmartStack.java 
+   41  javac SmartStack.java 
+   42  vi SmartStack.java 
+   43  javac SmartStack.java 
+   44  vi SmartStack.java 
+   45  javac SmartStack.java 
+   46  ls 
+   47  javap SmartStack$1
+   48  javap SmartStack\$1
+   49  vi SmartStack.java 
+   50  cp ../GenClassTest/Program1.java Program.java
+   53  vi Program.java 
+   54  javac Program.java 
+   55  vi Program.java 
+   56  javac Program.java 
+   57  java Program
+   58  vi Program.java 
+   59  javac Program.java 
+   60  java Program
+   61  javac Program.java 
+   62  vi Program.java 
+   63  javac Program.java 
+   64  java Program
+   65  vi Program.java 
+   66  vi SmartStack.java 
+   67  vi Program.java 
+   68  vi SmartStack.java 
+   69  history >> ../../cmd0812.txt 

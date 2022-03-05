@@ -1,0 +1,39 @@
+    1  cd DAC0921/Java/Runtime/
+    2  screen
+    3  javap java.lang.Math
+    4  javap java.lang.Object
+    5  mkdir NativeMethodTest1
+    6  cd NativeMethodTest1/
+    7  vi Program.java
+    8  javac Program.java 
+    9  java Program 48 72
+   10  java Program gcd 48 72
+   11  vi Program.java
+   12* javac Program.
+   13  java Program gcd 48 72
+   14* vi 
+   15  ls
+   16  vi Program.h
+   17  export CPATH=/opt/jdk-16.0.1/include/:/opt/jdk-16.0.1/include/linux/
+   18  vi natsup.cpp
+   19  c++ -shared -fPIC -o libnatsup.so natsup.cpp 
+   20  ls
+   21  java Program gcd 48 72
+   22  ls
+   23  java -Djava.library.path=. Program gcd 48 72
+   24  vi natsup.cpp
+   25  vi Program.java 
+   26  vi Program.h
+   27  vi natsup.cpp
+   28  export LD_LIBRARY_PATH=.
+   29  java  Program gcd 48 72
+   30  vi Program.java 
+   31  javac -h . Program.java 
+   32  java  Program gcd 48 72
+   33  java  Program reverse monday
+   34  vi Program.h
+   35  vi natsup.cpp 
+   36  c++ -shared -fPIC -o libnatsup.so natsup.cpp 
+   37  java  Program reverse monday
+   38  vi natsup.cpp 
+   39  history >> ../../cmd1112.txt

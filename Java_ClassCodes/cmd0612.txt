@@ -1,0 +1,139 @@
+    1  cd DAC0921/Java/Inheritance/SubclassTest/
+    2  mkdir payroll
+    3  vi payroll/Employee.java
+    4  javac payroll/Employee.java 
+    5  ls
+    6  ls payroll/
+    7  vi payroll/SalesPerson.java
+    8  javac payroll/SalesPerson.java
+    9  vi Program.java
+   10  javac Program.java
+   11  vi Program.java
+   12  javac Program.java
+   13  vi Program.java
+   14  vi payroll/SalesPerson.java
+   15  javap payroll/SalesPerson.class 
+   16  vi Program.java
+   17  javac Program.java
+   18  java Program
+   19  vi Program.java
+   20  javac Program.java
+   21  vi Program.java
+   22  javac Program.java
+   23  vi Program.java
+   24  java Program
+   25  vi Program.java
+   26  javac payroll/Employee.java 
+   27  vi payroll/Employee.java
+   28  vi Program.java
+   29  javac payroll/Employee.java 
+   30  java Program
+   31  vi Program.java
+   32  vi payroll/Employee.java 
+   33  vi Program.java 
+   34  javap Program
+   35  vi Program.java 
+   36  vi payroll/Employee.java 
+   37  vi Program.java 
+   38  vi Program.java
+   39  javac Program.java 
+   40  java Program
+   41  vi Program.java
+   42  javac Program.java 
+   43  java Program
+   44  vi Program.java
+   45  javac Program.java 
+   46  java Program
+   47  vi Program.java
+   48  javap payroll/Employee.class 
+   49  vi Program.java
+   50  javac Program.java 
+   51  vi Program.java
+   52  javac Program.java 
+   53  vi Program.java
+   54  javac Program.java 
+   55  vi Program.java
+   56  javac Program.java 
+   57  vi Program.java
+   58  javac Program.java 
+   59  java Program
+   60  vi Program.java
+   61  javap payroll/SalesPerson.class 
+   62  javap payroll/Employee.class 
+   63  vi Program.java
+   64  vi ../../Basics/VarArgTest/Program.java 
+   65  history > ../../cmd0612.txt 
+    1  cd DAC0921/Java/Inheritance/
+    2  mkdir ObjectClassTest
+    3  cd ObjectClassTest/
+    4  vi Interval.java
+    5  javac Interval.java 
+    6  vi Program.java
+    7  vi Interval.java
+    8  vi Program.java
+    9  javap Interval
+   10  javac Program.java 
+   11  vi Interval.java
+   12  javap java.lang.Object
+   13  vi Program.java 
+   14  java Program
+   15  vi Interval.java 
+   16  javac Interval.java 
+   17  java Program
+   18  vi Program.java 
+   19  javac Interval.java 
+   20  javac Program.java 
+   21  java Program
+   22  vi Program.java 
+   23  javac Program.java 
+   24  java Program
+   25  vi Interval.java 
+   26  javap java.lang.Object
+   27  vi Interval.java 
+   28  javap -p java.lang.Object
+   29  vi Interval.java 
+   30  vi ../SubclassTest/Program.java 
+   31  vi Interval.java 
+   32  vi Program.java 
+   33  javac Program.java 
+   34  java Program
+   35  vi Program.java 
+   36  vi Interval.java 
+   37  javap -p java.lang.Object
+   38  cd ..
+   39  mkdir AbstractClassTest
+   40  cd AbstractClassTest/
+   41  mkdir src
+   42  vi src/InsufficientFundsException.java
+   43  ls
+   44  javac -d . src/InsufficientFundsException.java
+   45* 
+   46  ls banking/
+   47  vi src/IllegalTransferException.java
+   48  javac -d . src/IllegalTransferException.java
+   49  ls banking/
+   50  vi src/InsufficientFundsException.java
+   51  vi src/IllegalTransferException.java
+   52  vi src/Account.java
+   53  vi src/InsufficientFundsException.java
+   54  vi src/IllegalTransferException.java
+   55  vi src/Account.java
+   56  javac -d . src/Account.java
+   57  vi src/InsufficientFundsException.java
+   58  vi src/Account.java
+   59  javac -d . src/Account.java
+   60  vi src/Account.java
+   61  javac -d . src/Account.java
+   62  vi src/Account.java
+   63  cd ../../Basics/PrimitiveTypeTest/
+   64  ls
+   65  java Program 75000 4
+   66  java Program 5OOO 3
+   67  vi Program.java 
+   68  javac Program.java 
+   69  javap java.lang.Thread
+   70  javap java.lang.InterruptedException
+   71  javap java.lang.NumberFormatException
+   72  javap java.lang.IllegalArgumentException
+   73  vi Program.java 
+   74  history >> ../../cmd0612.txt 

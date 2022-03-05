@@ -1,0 +1,79 @@
+    1  cd DAC0921/Java/Runtime/AnnotationTest/
+    2  vi Program.java
+    3  javac Program.java 
+    4  vi Program.java
+    5  javac Program.java 
+    6  java Program 500000 finance.EducationLoan common
+    7  java Program 500000 finance.PersonalLoan common
+    8  java Program 500000 finance.PersonalLoan employees
+    9  java Program 500000 finance.HomeLoan common
+   10  java Program 500000 finance.HomeLoan women
+   11  java Program 500000 finance.CarLoan common
+   12  java Program 500000 finance.HomeLoan student
+   13  vi Program.java
+   14  javap java.lang.reflect.Method
+   15  vi Program.java
+   16  javap java.lang.Class
+   17  vi Program.java
+   18  vi src/MaxDuration.java
+   19  vi src/EducationLoan.java 
+   20  vi src/PersonalLoan.java 
+   21  vi src/HomeLoan.java 
+   22  javac -d src/*.java
+   23  javac -d . src/*.java
+   24  vi src/MaxDuration.java
+   25  javac -d . src/*.java
+   26  vi src/MaxDuration.java
+   27  javac -d . src/*.java
+   28  vi src/HomeLoan.java 
+   29  javac -d . src/*.java
+   30  vi src/MaxDuration.java
+   31  javac -d . src/*.java
+   32  vi Program.java 
+   33  javac Program.java 
+   34  java Program 500000 finance.EducationLoan common
+   35  vi src/EducationLoan.java 
+   36  java Program 500000 finance.PersonalLoan common
+   37  java Program 500000 finance.PersonalLoan employees
+   38  java Program 500000 finance.HomeLoan common
+   39  java Program 500000 finance.HomeLoan women
+   40  vi src/MaxDuration.java
+   41  vi src/EducationLoan.java 
+   42  javac Program.java 
+   43  vi Program.java 
+   44  ls
+   45  mkdir lib
+   46  mv finance/ lib/
+   47  java Program 500000 finance.HomeLoan common
+   48  history > ../../cmd1012.txt
+    1  cd DAC0921/Java/Runtime/AnnotationTest/
+    2  ls
+    3  java Program 500000 finance.HomeLoan women
+    4  java -cp .:lib Program 500000 finance.HomeLoan women
+    5  java Program 500000 finance.HomeLoan womenn
+    6  export CLASSPATH=.:lib
+    7  java Program 500000 finance.HomeLoan womenn
+    8  java Program 500000 finance.HomeLoan women
+    9  unset CLASSPATH
+   10  java Program 500000 finance.HomeLoan women
+   11  jar -c -f finlib.jar -C lib finance
+   12  ls
+   13  java -cp .:finlib.jar Program 500000 finance.HomeLoan women
+   14  export CLASSPATH=.:*
+   15  java Program 500000 finance.HomeLoan women
+   16  vi /samples/Foundations/Procedures/funcptrtest.c 
+   17  history >> ../../cmd1012.txt 
+    1  cd DAC0921/Java/Runtime/
+    2  cd FunctionalTest2/
+    3  vi Program.java 
+    4  javac Program.java 
+    5  vi Program.java 
+    6  javac Program.java 
+    7  java Program items samsung
+    8  java Program customers 40000
+    9  vi Program.java 
+   10  cd ../FunctionalTest1
+   11  vi Program.java 
+   12  cd ../FunctionalTest2/
+   13  vi Program.java 
+   14  history >> ../../cmd1012.txt 

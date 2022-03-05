@@ -1,0 +1,117 @@
+    1  cd DAC0921/Java/Platform/
+    2  ls
+    3  mkdir ParallelStreamTest
+    4  cd ParallelStreamTest/
+    5  cp ../ThreadTest/Worker.java .
+    6  vi Program1.java
+    7  javac Program1.java 
+    8  java Program
+    9  java Program 15
+   10  vi Program1.java
+   11  cp Program1.java Program2.java
+   12  vi Program2.java 
+   13  javac Program2.java 
+   14  java Program
+   15  java Program 15
+   16  ps -A
+   17  vi Program2.java 
+   18  cd ..
+   19  javap java.nio.ByteBuffer
+   20  mkdir FileStreamTest
+   21  cd FileStreamTest/
+   22  vi Transformer.java
+   23  javac Transformer.java
+   24  vi Transformer.java
+   25  javac Transformer.java
+   26  vi Program.java
+   27  javac Program.java 
+   28  java Program Program.java data1.txt
+   29  ls
+   30  vi data1.txt 
+   31  java Program data1.txt source.txt
+   32  vi source.txt 
+   33  vi Program.java
+   34  cd ..
+   35  mkdir FileChannelTest
+   36  cd FileChannelTest/
+   37  vi Transformer.java
+   38  javac Transformer.java 
+   39  vi Program.java
+   40  cp ../FileStreamTest/source.txt .
+   41  ls
+   42  pwd
+   43  vi Program.java
+   44  javac Program.java 
+   45  vi Program.java
+   46  javac Program.java 
+   47  vi Program.java
+   48  javac Program.java 
+   49  vi Program.java
+   50  javac Program.java 
+   51  vi source.txt 
+   52  java Program source.txt 
+   53  vi source.txt 
+   54  java Program source.txt 
+   55  vi source.txt 
+   56  vi Program.java
+   57  history >> ../../cmd1412.txt
+    1  cd DAC0921/Java/Platform/
+    2  mkdir ObjectSerializationTest
+    3  cd ObjectSerializationTest/
+    4  mkdir src
+    5  vi src/Visitor.java
+    6  javac -d . src/Visitor.java
+    7  vi src/Site.java
+    8  javac -d . src/Site.java 
+    9  vi src/Site.java
+   10  javac -d . src/Site.java 
+   11  vi src/Visitor.java 
+   12  javac -d . src/Visitor.java
+   13  vi src/SiteStore.java
+   14  javap java.io.ObjectOutputStream
+   15  vi src/SiteStore.java
+   16  javap java.io.ObjectInputStream
+   17  vi src/SiteStore.java
+   18  javac -d . src/SiteStore.java 
+   19  vi src/SiteStore.java
+   20  vi Program.java
+   21  javac Program.java 
+   22  java Program jack
+   23  java Program jill
+   24  java Program
+   25  java Program john
+   26  java Program
+   27  java Program jill
+   28  java Program
+   29  ls
+   30  vi CitiZoo.store 
+   31  java Program john
+   32  java Program
+   33  javap java.io.Serializable
+   34  vi src/Site.java 
+   35  javac -d src/Site.java 
+   36  javac -d . src/Site.java 
+   37  java Program
+   38  vi src/Site.java 
+   39  javac -d . src/Site.java 
+   40  java Program
+   41  vi CitiZoo.store 
+   42  vi src/Visitor.java 
+   43  vi src/Site.java 
+   44  javap java.util.stream.Stream
+   45  javap java.util.Optional
+   46  vi src/Site.java 
+   47  vi src/SiteStore.java 
+   48  vi Program.java 
+   49  java Program
+   50  ls
+   51  rm CitiZoo.store 
+   52  java Program
+   53  java Program John
+   54  java Program Jack
+   55  java Program Jeff
+   56  java Program Jack
+   57  java Program Jane
+   58  java Program
+   59  ls
+   60  history >> ../../cmd1412.txt 

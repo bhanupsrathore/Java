@@ -1,0 +1,43 @@
+    1  vi .vimrc 
+    2  cd DAC0921/
+    3  ls
+    4  mkdir -p Java/Basics
+    5  cd Java/Basics/
+    6  mkdir PrimitiveTypeTest
+    7  cd PrimitiveTypeTest/
+    8  vi Program.java
+    9  ls
+   10  javac Program.java 
+   11  ls
+   12  vi Program.class
+   13  javap Program
+   14  javap -c Program
+   15  java Program
+   16  uname -m
+   17  vi Program.java 
+   18  javac Program.java 
+   19  java Program
+   20  vi Program.java 
+   21  javac Program.java 
+   22* java Program 50000 4
+   23  vi Program.java 
+   24  javac Program.java 
+   25  java Program 75000 4
+   26  vi Program.java 
+   27  javap -c Program
+   28  vi Program.java 
+   29  javac Program.java 
+   30  java Program 75000 4
+   31  vi Program.java 
+   32  cd ..
+   33  cp -r PrimitiveTypeTest/ ClassTypeTest
+   34  cd ClassTypeTest/
+   35  vi Investment.java
+   36  javac Investment.java 
+   37  ls
+   38  javap Investment
+   39  javap -p Investment
+   40  vi Program.java 
+   41  vi Investment.java 
+   42  vi Program.java 
+   43  history > ../../cmd0212.txt

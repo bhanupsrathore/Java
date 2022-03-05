@@ -1,0 +1,52 @@
+    1  cd DAC0921/Java/Database/
+    2  ls
+    3  mkdir JPAXmlMappingTest
+    4  cd JPAXmlMappingTest/
+    5  mkdir META-INF
+    6  mkdir src
+    7  cp /samples/Support/META-INF/persistence.xml META-INF/
+    8  cp /samples/Support/META-INF/orm.xml META-INF/
+    9  cp ../JPAAnnotationTest/src/OrderEntity.java src/
+   10  vi src/OrderEntity.java 
+   11  vi META-INF/orm.xml 
+   12  vi src/CounterEntity.java
+   13  vi META-INF/orm.xml 
+   14  sqlplus scott/tiger@xe
+   15  export CLASSPATH=.:/opt/jars/*
+   16  javac -d . src/*.java
+   17  vi META-INF/persistence.xml 
+   18  vi src/OrderManager.java
+   19  javac -d . src/*.java
+   20  vi src/OrderManagerService.java
+   21  vi src/OrderManager.java
+   22  vi src/OrderManagerService.java
+   23  vi META-INF/persistence.xml 
+   24  vi src/OrderManagerService.java
+   25  javac -d . src/OrderManagerService.java 
+   26  vi src/OrderManager.java 
+   27  vi src/OrderManagerService.java
+   28  javac -d . src/*.java
+   29  vi jndi.properties
+   30  vi Server.java
+   31  javac Server.java 
+   32  rmiregistry 6000 &
+   33  netstat -pnlt
+   34  java Server &
+   35  kill 23420
+   36  java Server &
+   37  vi Server.java
+   38  javac Server.java 
+   39  java Server &
+   40  vi Server.java
+   41  vi META-INF/persistence.xml 
+   42  vi Server.java
+   43  ps
+   44  kill 23335
+   45  kill 23466
+   46  kill 23588
+   47  java Server
+   48  vi Server.java
+   49  vi jndi.properties 
+   50  vi Server.java
+   51  vi src/OrderManagerService.java 
+   52  history >> ../../cmd2012.txt

@@ -1,0 +1,71 @@
+    1  cd DAC0921/Java/Communuication/
+    2  cd ..
+    3  mv Communuication/ Communication
+    4  cd Communication/
+    5  mkdir ServerSocketTest
+    6  cd ServerSocketTest/
+    7  cp /samples/Support/store.xml .
+    8  vi store.xml 
+    9  vi Shop.java
+   10  vi store.xml 
+   11  vi Shop.java
+   12  javac Shop.java 
+   13  vi Shop.java
+   14  javac Shop.java 
+   15  vi store.xml 
+   16  vi Shop.java
+   17  javap java.util.Properties
+   18  vi Shop.java
+   19  history >> ../../cmd1512.txt
+    1  cd DAC0921/Java/Communication/ServerSocketTest/
+    2  vi Program1.java
+    3  java Program1.java 
+    4  javac Program1.java 
+    5  java Program
+    6  java Program &
+    7* 
+    8  java Program
+    9  telnet localhost 4000
+   10  vi Program1.java 
+   11  javac Program1.java 
+   12  java Program &
+   13  telnet localhost 4000
+   14  vi Program1.java 
+   15  vi Program1.java Program2.java
+   16  cp Program1.java Program2.java
+   17  vi Program2.java 
+   18  javac Program2.java 
+   19  vi Program2.java 
+   20  javac Program2.java 
+   21  ps
+   22  pkill -ef "java Program"
+   23  java Program &
+   24  telnet localhost 4000
+   25  ps
+   26  java Program &
+   27  telnet localhost 4000
+   28  ps
+   29  java Program &
+   30  ps
+   31  vi Program2.java 
+   32  javac Program2.java 
+   33  java Program &
+   34  telnet localhost 4000
+   35  vi Program2.java 
+   36  netstat -pnlt
+   37  cd ..
+   38  mkdir SocketTest
+   39  cd SocketTest/
+   40  vi Program.java
+   41  javac Program.java 
+   42  java Program ssd 4
+   43  java Program ddr 10
+   44  java Program cpu 200
+   45  java Program printer 1
+   46  vi Program.java
+   47  java Program mouse 20
+   48  java Program cabbage 5
+   49  pkill -ef "java Program"
+   50  java Program mouse 20
+   51  netstat -pnlt
+   52  history >> ../../cmd1512.txt 

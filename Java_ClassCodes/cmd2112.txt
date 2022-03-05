@@ -1,0 +1,103 @@
+    1  cd DAC0921/Java/Database/JPAXmlMappingTest/
+    2  export CLASSPATH=.:/opt/jars/*
+    3  vi src/OrderManagerService.java 
+    4  rmiregistry 6000 &
+    5  java Server &
+    6  vi Program.java
+    7  vi Server.java 
+    8  vi Program.java
+    9  javac Program.java 
+   10  vi Program.java
+   11  javac Program.java 
+   12  java Program CU103 105 6
+   13  vi Program.java
+   14  javac Program.java 
+   15  java Program CU103 105 6
+   16  ps
+   17  kill 22372
+   18  vi src/OrderManagerService.java 
+   19  javac -d . src/OrderManagerService.java 
+   20  java Server &
+   21  java Program CU103 105 6
+   22  java Program CU102 108 12
+   23  java Program CU102 104 12
+   24  java Program CU103
+   25  java Program CU102
+   26  java Program CU106
+   27  vi Program.java
+   28  vi src/OrderManagerService.java 
+   29  vi META-INF/orm.xml 
+   30  vi src/OrderManagerService.java 
+   31  vi Program.java
+   32  ps
+   33  kill 238101
+   34  kill 23801
+   35  kill 22346
+   36  cd ../..
+   37  cd Database/JPAXmlMappingTest/
+   38  vi Program.java 
+   39  javap shopping.OrderManager
+   40  javap shopping.OrderEntity
+   41  cd ../..
+   42  mkdir Web
+   43  cd Web/
+   44  mkdir ServletTest
+   45  cd ServletTest/
+   46  mkdir BasicWebApp
+   47  mkdir BasicWebApp/WEB-INF
+   48  mkdir BasicWebApp/WEB-INF/classes
+   49  cp /samples/Support/WEB-INF/web.xml BasicWebApp/WEB-INF/
+   50  vi BasicWebApp/welcome.html
+   51  /opt/glassfish5/bin/asadmin deploy BasicWebApp
+   52  vi BasicWebApp/WEB-INF/web.xml 
+   53  /opt/glassfish5/bin/asadmin undeploy BasicWebApp
+   54  /opt/glassfish5/bin/asadmin deploy BasicWebApp
+   55  . /opt/glassfish5/setenv.sh 
+   56  javap javax.servlet.Servlet
+   57  mkdir src
+   58  vi src/GreetingServlet.java
+   59  javac -d BasicWebApp/WEB-INF/classes/ src/GreetingServlet.java 
+   60  vi BasicWebApp/WEB-INF/web.xml 
+   61  /opt/glassfish5/bin/asadmin undeploy BasicWebApp
+   62  /opt/glassfish5/bin/asadmin deploy BasicWebApp
+   63  vi src/GreetingServlet.java
+   64  javac -d BasicWebApp/WEB-INF/classes/ src/GreetingServlet.java 
+   65  touch BasicWebApp/.reload
+   66  history >> ../../cmd2112.txt
+    1  cd DAC0921/Java/Web/ServletTest/
+    2  . /opt/glassfish5/setenv.sh 
+    3  vi src/GreetingServlet.java 
+    4  vi BasicWebApp/WEB-INF/web.xml 
+    5  /opt/glassfish5/bin/asadmin deploy BasicWebApp
+    6  vi src/GreetingServlet.java 
+    7  cp BasicWebApp/welcome.html BasicWebApp/formpost.html
+    8  vi BasicWebApp/formpost.html
+    9  vi src/CountingServlet.java
+   10  javap javax.servlet.http.HttpServlet
+   11  javap javax.servlet.GenericServlet
+   12  vi src/CountingServlet.java
+   13  javac -d BasicWebApp/WEB-INF/classes/ src/CountingServlet.java 
+   14  vi src/CountingServlet.java
+   15  javac -d BasicWebApp/WEB-INF/classes/ src/CountingServlet.java 
+   16  vi src/CountingServlet.java
+   17  javac -d BasicWebApp/WEB-INF/classes/ src/CountingServlet.java 
+   18  vi src/CountingServlet.java
+   19  javac -d BasicWebApp/WEB-INF/classes/ src/CountingServlet.java 
+   20  touch BasicWebApp/.reload 
+   21  vi src/CountingServlet.java
+   22  javac -d BasicWebApp/WEB-INF/classes/ src/CountingServlet.java 
+   23  touch BasicWebApp/.reload 
+   24  vi src/CountingServlet.java
+   25  javac -d BasicWebApp/WEB-INF/classes/ src/CountingServlet.java 
+   26  touch BasicWebApp/.reload 
+   27  vi src/CountingServlet.java
+   28  vi src/PausingFilter.java
+   29  javap javax.servlet.Filter
+   30  vi src/PausingFilter.java
+   31  javac -d BasicWebApp/WEB-INF/classes/ src/PausingFilter.java 
+   32  vi src/PausingFilter.java
+   33  javac -d BasicWebApp/WEB-INF/classes/ src/PausingFilter.java 
+   34  touch BasicWebApp/.reload
+   35  vi src/PausingFilter.java
+   36  /opt/glassfish5/bin/asadmin undeploy BasicWebApp
+   37  history >> ../../cmd2112.txt 

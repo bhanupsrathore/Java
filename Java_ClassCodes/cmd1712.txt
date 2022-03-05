@@ -1,0 +1,47 @@
+    1  ls /opt/jars/
+    2  mkdir Database
+    3  export CLASSPATH=.:/opt/jars/*
+    4  cd Database/
+    5  mkdir SimpleSQLTest
+    6  cd SimpleSQLTest/
+    7  cp ~/DAC0921/Support/sales.db .
+    8  ls
+    9  sqlite3 sales.db
+   10  vi Program.java
+   11  javac Program.java 
+   12  java Program
+   13  vi Program.java
+   14  javac Program.java 
+   15  java Program
+   16  vi Program.java
+   17  javac Program.java 
+   18  java Program
+   19  vi Program.java
+   20  javac Program.java 
+   21  java Program
+   22  java Program 202
+   23  java Program
+   24  java Program 208
+   25  vi Program.java
+   26  cd ../
+   27  mkdir ParamSQLTest
+   28  cd ParamSQLTest/
+   32  vi Program.java
+   33  javac Program.java 
+   34  java Program CU301 304 9
+   35  java Program CU302 306 4
+   36  java Program CU302 302 4
+   38  vi Program.java
+   39  cd ..
+   40  mkdir StoredProcTest
+   41  cd StoredProcTest/
+   42  vi /samples/Support/salesora.sql 
+   43  vi Program.java
+   44  javac Program.java 
+   46  javac Program.java 
+   47  java Program CU103 102 25
+   55  java Program CU103 102 25
+   57  java Program CU105 104 16
+   58  java Program CU102 104 16
+   59  vi Program.java
+   60  vi /samples/Support/salesora.sql 
